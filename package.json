@@ -1,0 +1,9 @@
+{
+  "name": "vitest-emotion-issue",
+  "packageManager": "yarn@3.2.3",
+  "private": true,
+  "workspaces": [
+    "ui-react",
+    "project"
+  ]
+}
