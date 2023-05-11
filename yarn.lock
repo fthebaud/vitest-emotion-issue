@@ -288,14 +288,14 @@ __metadata:
   linkType: hard
 
 "@company/ui-react@file:../ui-react::locator=project%40workspace%3Aproject":
-  version: 0.0.4-rc2
-  resolution: "@company/ui-react@file:../ui-react#../ui-react::hash=1199c8&locator=project%40workspace%3Aproject"
+  version: 0.0.1
+  resolution: "@company/ui-react@file:../ui-react#../ui-react::hash=6b85ed&locator=project%40workspace%3Aproject"
   peerDependencies:
     "@emotion/react": 11.10.6
     "@emotion/styled": 11.10.6
     react: 18.2.0
     react-dom: 18.2.0
-  checksum: 77dab4413721647af14b223d6dce976f5b386fe51bd7bb384285bf483c248fcb2e83468f61df382aebd8f763f7cd590eb546d58ec24190f261e77baf9d0b2e4c
+  checksum: 33d4cf12383e1ff7b83da76c9ade4bd0fb5f48500be1b1e7ad77952a870cbcf7e3e34bde235843a80640f6e5dc2b8d424bd7784cb9ba666fde6d30d9ce0fc714
   languageName: node
   linkType: hard
 
@@ -312,7 +312,7 @@ __metadata:
     eslint-plugin-react-hooks: ^4.6.0
     eslint-plugin-react-refresh: ^0.3.4
     typescript: ^5.0.2
-    vite: ^4.3.2
+    vite: 4.3.1
     vite-plugin-dts: 2.3.0
   peerDependencies:
     "@emotion/react": 11.10.6
@@ -4249,7 +4249,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"postcss@npm:^8.4.23":
+"postcss@npm:^8.4.21, postcss@npm:^8.4.23":
   version: 8.4.23
   resolution: "postcss@npm:8.4.23"
   dependencies:
@@ -4319,7 +4319,7 @@ __metadata:
     react: ^18.2.0
     react-dom: ^18.2.0
     typescript: ^5.0.2
-    vite: ^4.3.2
+    vite: 4.3.1
     vitest: 0.30.1
     vitest-canvas-mock: 0.2.2
   languageName: unknown
@@ -4543,7 +4543,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"rollup@npm:^3.21.0":
+"rollup@npm:^3.20.2, rollup@npm:^3.21.0":
   version: 3.21.6
   resolution: "rollup@npm:3.21.6"
   dependencies:
@@ -5207,7 +5207,44 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite@npm:^3.0.0 || ^4.0.0, vite@npm:^4.3.2":
+"vite@npm:4.3.1":
+  version: 4.3.1
+  resolution: "vite@npm:4.3.1"
+  dependencies:
+    esbuild: ^0.17.5
+    fsevents: ~2.3.2
+    postcss: ^8.4.21
+    rollup: ^3.20.2
+  peerDependencies:
+    "@types/node": ">= 14"
+    less: "*"
+    sass: "*"
+    stylus: "*"
+    sugarss: "*"
+    terser: ^5.4.0
+  dependenciesMeta:
+    fsevents:
+      optional: true
+  peerDependenciesMeta:
+    "@types/node":
+      optional: true
+    less:
+      optional: true
+    sass:
+      optional: true
+    stylus:
+      optional: true
+    sugarss:
+      optional: true
+    terser:
+      optional: true
+  bin:
+    vite: bin/vite.js
+  checksum: e58ba33ec10af6167686c1c43c61f31fcbc6b3b6a1f16ed03fb6cc8278700c6edaf4ff394ef454291ee35924054c7772feac159f1acf3af1a33d289fe8494d9c
+  languageName: node
+  linkType: hard
+
+"vite@npm:^3.0.0 || ^4.0.0":
   version: 4.3.5
   resolution: "vite@npm:4.3.5"
   dependencies:

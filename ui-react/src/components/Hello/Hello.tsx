@@ -5,8 +5,12 @@ const StyledDiv = styled("div")({
   color: "blue",
 });
 
-function Hello() {
-  return <StyledDiv>Hello</StyledDiv>;
+type Props = {
+  name?: string;
+};
+
+function Hello({ name }: Props) {
+  return <StyledDiv>Hello {name || "unknown user"}</StyledDiv>;
 }
 
 Hello.displayName = "Hello";
